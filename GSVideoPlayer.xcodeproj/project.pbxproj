@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D262CCC667F47D5B3D5C82 /* Pods_GSVideoPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA5DAA7B6718F8B3D24DDD /* Pods_GSVideoPlayerTests.framework */; };
+		774A31A312E48DEBA65CFC11 /* Pods_GSVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B1A2076DD77BC557E4A655 /* Pods_GSVideoPlayer.framework */; };
+		BD542A8727F71A4A00D81A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD542A8627F71A4A00D81A68 /* AppDelegate.swift */; };
+		BD542A8927F71A4A00D81A68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD542A8827F71A4A00D81A68 /* SceneDelegate.swift */; };
+		BD542A8B27F71A4A00D81A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD542A8A27F71A4A00D81A68 /* ViewController.swift */; };
+		BD542A8E27F71A4A00D81A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD542A8C27F71A4A00D81A68 /* Main.storyboard */; };
+		BD542A9027F71A4B00D81A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD542A8F27F71A4B00D81A68 /* Assets.xcassets */; };
+		BD542A9327F71A4B00D81A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD542A9127F71A4B00D81A68 /* LaunchScreen.storyboard */; };
+		BD542A9E27F71A4C00D81A68 /* GSVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD542A9D27F71A4C00D81A68 /* GSVideoPlayerTests.swift */; };
+		BD542AA827F71A4C00D81A68 /* GSVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD542AA727F71A4C00D81A68 /* GSVideoPlayerUITests.swift */; };
+		BD542AAA27F71A4C00D81A68 /* GSVideoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD542AA927F71A4C00D81A68 /* GSVideoPlayerUITestsLaunchTests.swift */; };
+		CB036ED1151B82D58CB3F8E8 /* Pods_GSVideoPlayer_GSVideoPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C150505BE937C7955CA44719 /* Pods_GSVideoPlayer_GSVideoPlayerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD542A9A27F71A4C00D81A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD542A7B27F71A4A00D81A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD542A8227F71A4A00D81A68;
+			remoteInfo = GSVideoPlayer;
+		};
+		BD542AA427F71A4C00D81A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD542A7B27F71A4A00D81A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD542A8227F71A4A00D81A68;
+			remoteInfo = GSVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005903DC8321611CC76E1FF0 /* Pods-GSVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSVideoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-GSVideoPlayer/Pods-GSVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		06B1A2076DD77BC557E4A655 /* Pods_GSVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453C78CDC775120D004E7F6D /* Pods-GSVideoPlayer-GSVideoPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSVideoPlayer-GSVideoPlayerUITests.debug.xcconfig"; path = "Target Support Files/Pods-GSVideoPlayer-GSVideoPlayerUITests/Pods-GSVideoPlayer-GSVideoPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		587548421A7EAF111475FF8A /* Pods-GSVideoPlayer-GSVideoPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSVideoPlayer-GSVideoPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-GSVideoPlayer-GSVideoPlayerUITests/Pods-GSVideoPlayer-GSVideoPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6BFB194AB6752D27D5362E27 /* Pods-GSVideoPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSVideoPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-GSVideoPlayerTests/Pods-GSVideoPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80CA5DAA7B6718F8B3D24DDD /* Pods_GSVideoPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSVideoPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CB92520F3795AC3261A6BF /* Pods-GSVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSVideoPlayer.release.xcconfig"; path = "Target Support Files/Pods-GSVideoPlayer/Pods-GSVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		B2AE3D56BE0BF0E08D79802C /* Pods-GSVideoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSVideoPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-GSVideoPlayerTests/Pods-GSVideoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD542A8327F71A4A00D81A68 /* GSVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD542A8627F71A4A00D81A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD542A8827F71A4A00D81A68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD542A8A27F71A4A00D81A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD542A8D27F71A4A00D81A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD542A8F27F71A4B00D81A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD542A9227F71A4B00D81A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD542A9427F71A4B00D81A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD542A9927F71A4C00D81A68 /* GSVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD542A9D27F71A4C00D81A68 /* GSVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSVideoPlayerTests.swift; sourceTree = "<group>"; };
+		BD542AA327F71A4C00D81A68 /* GSVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD542AA727F71A4C00D81A68 /* GSVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		BD542AA927F71A4C00D81A68 /* GSVideoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSVideoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C150505BE937C7955CA44719 /* Pods_GSVideoPlayer_GSVideoPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSVideoPlayer_GSVideoPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD542A8027F71A4A00D81A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774A31A312E48DEBA65CFC11 /* Pods_GSVideoPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD542A9627F71A4C00D81A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D262CCC667F47D5B3D5C82 /* Pods_GSVideoPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD542AA027F71A4C00D81A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB036ED1151B82D58CB3F8E8 /* Pods_GSVideoPlayer_GSVideoPlayerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC4A44F9B209669FCA61795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B1A2076DD77BC557E4A655 /* Pods_GSVideoPlayer.framework */,
+				C150505BE937C7955CA44719 /* Pods_GSVideoPlayer_GSVideoPlayerUITests.framework */,
+				80CA5DAA7B6718F8B3D24DDD /* Pods_GSVideoPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A29FA46D436721850455A547 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005903DC8321611CC76E1FF0 /* Pods-GSVideoPlayer.debug.xcconfig */,
+				B1CB92520F3795AC3261A6BF /* Pods-GSVideoPlayer.release.xcconfig */,
+				453C78CDC775120D004E7F6D /* Pods-GSVideoPlayer-GSVideoPlayerUITests.debug.xcconfig */,
+				587548421A7EAF111475FF8A /* Pods-GSVideoPlayer-GSVideoPlayerUITests.release.xcconfig */,
+				6BFB194AB6752D27D5362E27 /* Pods-GSVideoPlayerTests.debug.xcconfig */,
+				B2AE3D56BE0BF0E08D79802C /* Pods-GSVideoPlayerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD542A7A27F71A4A00D81A68 = {
+			isa = PBXGroup;
+			children = (
+				BD542A8527F71A4A00D81A68 /* GSVideoPlayer */,
+				BD542A9C27F71A4C00D81A68 /* GSVideoPlayerTests */,
+				BD542AA627F71A4C00D81A68 /* GSVideoPlayerUITests */,
+				BD542A8427F71A4A00D81A68 /* Products */,
+				A29FA46D436721850455A547 /* Pods */,
+				5EC4A44F9B209669FCA61795 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD542A8427F71A4A00D81A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD542A8327F71A4A00D81A68 /* GSVideoPlayer.app */,
+				BD542A9927F71A4C00D81A68 /* GSVideoPlayerTests.xctest */,
+				BD542AA327F71A4C00D81A68 /* GSVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD542A8527F71A4A00D81A68 /* GSVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD542A8627F71A4A00D81A68 /* AppDelegate.swift */,
+				BD542A8827F71A4A00D81A68 /* SceneDelegate.swift */,
+				BD542A8A27F71A4A00D81A68 /* ViewController.swift */,
+				BD542A8C27F71A4A00D81A68 /* Main.storyboard */,
+				BD542A8F27F71A4B00D81A68 /* Assets.xcassets */,
+				BD542A9127F71A4B00D81A68 /* LaunchScreen.storyboard */,
+				BD542A9427F71A4B00D81A68 /* Info.plist */,
+			);
+			path = GSVideoPlayer;
+			sourceTree = "<group>";
+		};
+		BD542A9C27F71A4C00D81A68 /* GSVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD542A9D27F71A4C00D81A68 /* GSVideoPlayerTests.swift */,
+			);
+			path = GSVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		BD542AA627F71A4C00D81A68 /* GSVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD542AA727F71A4C00D81A68 /* GSVideoPlayerUITests.swift */,
+				BD542AA927F71A4C00D81A68 /* GSVideoPlayerUITestsLaunchTests.swift */,
+			);
+			path = GSVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD542A8227F71A4A00D81A68 /* GSVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD542AAD27F71A4C00D81A68 /* Build configuration list for PBXNativeTarget "GSVideoPlayer" */;
+			buildPhases = (
+				E7D0AB90E8AD450E9223A6F5 /* [CP] Check Pods Manifest.lock */,
+				BD542A7F27F71A4A00D81A68 /* Sources */,
+				BD542A8027F71A4A00D81A68 /* Frameworks */,
+				BD542A8127F71A4A00D81A68 /* Resources */,
+				2343F3F550206BABE283AED5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSVideoPlayer;
+			productName = GSVideoPlayer;
+			productReference = BD542A8327F71A4A00D81A68 /* GSVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD542A9827F71A4C00D81A68 /* GSVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD542AB027F71A4C00D81A68 /* Build configuration list for PBXNativeTarget "GSVideoPlayerTests" */;
+			buildPhases = (
+				02B5F7AEC549895F702F8239 /* [CP] Check Pods Manifest.lock */,
+				BD542A9527F71A4C00D81A68 /* Sources */,
+				BD542A9627F71A4C00D81A68 /* Frameworks */,
+				BD542A9727F71A4C00D81A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD542A9B27F71A4C00D81A68 /* PBXTargetDependency */,
+			);
+			name = GSVideoPlayerTests;
+			productName = GSVideoPlayerTests;
+			productReference = BD542A9927F71A4C00D81A68 /* GSVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD542AA227F71A4C00D81A68 /* GSVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD542AB327F71A4C00D81A68 /* Build configuration list for PBXNativeTarget "GSVideoPlayerUITests" */;
+			buildPhases = (
+				E40676B4DB88C140C88E1830 /* [CP] Check Pods Manifest.lock */,
+				BD542A9F27F71A4C00D81A68 /* Sources */,
+				BD542AA027F71A4C00D81A68 /* Frameworks */,
+				BD542AA127F71A4C00D81A68 /* Resources */,
+				28FCB60AF55D053E300BF578 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD542AA527F71A4C00D81A68 /* PBXTargetDependency */,
+			);
+			name = GSVideoPlayerUITests;
+			productName = GSVideoPlayerUITests;
+			productReference = BD542AA327F71A4C00D81A68 /* GSVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD542A7B27F71A4A00D81A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BD542A8227F71A4A00D81A68 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BD542A9827F71A4C00D81A68 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BD542A8227F71A4A00D81A68;
+					};
+					BD542AA227F71A4C00D81A68 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BD542A8227F71A4A00D81A68;
+					};
+				};
+			};
+			buildConfigurationList = BD542A7E27F71A4A00D81A68 /* Build configuration list for PBXProject "GSVideoPlayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD542A7A27F71A4A00D81A68;
+			productRefGroup = BD542A8427F71A4A00D81A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD542A8227F71A4A00D81A68 /* GSVideoPlayer */,
+				BD542A9827F71A4C00D81A68 /* GSVideoPlayerTests */,
+				BD542AA227F71A4C00D81A68 /* GSVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD542A8127F71A4A00D81A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD542A9327F71A4B00D81A68 /* LaunchScreen.storyboard in Resources */,
+				BD542A9027F71A4B00D81A68 /* Assets.xcassets in Resources */,
+				BD542A8E27F71A4A00D81A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD542A9727F71A4C00D81A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD542AA127F71A4C00D81A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B5F7AEC549895F702F8239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSVideoPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2343F3F550206BABE283AED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSVideoPlayer/Pods-GSVideoPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSVideoPlayer/Pods-GSVideoPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSVideoPlayer/Pods-GSVideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28FCB60AF55D053E300BF578 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSVideoPlayer-GSVideoPlayerUITests/Pods-GSVideoPlayer-GSVideoPlayerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSVideoPlayer-GSVideoPlayerUITests/Pods-GSVideoPlayer-GSVideoPlayerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSVideoPlayer-GSVideoPlayerUITests/Pods-GSVideoPlayer-GSVideoPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E40676B4DB88C140C88E1830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSVideoPlayer-GSVideoPlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D0AB90E8AD450E9223A6F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD542A7F27F71A4A00D81A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD542A8B27F71A4A00D81A68 /* ViewController.swift in Sources */,
+				BD542A8727F71A4A00D81A68 /* AppDelegate.swift in Sources */,
+				BD542A8927F71A4A00D81A68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD542A9527F71A4C00D81A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD542A9E27F71A4C00D81A68 /* GSVideoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD542A9F27F71A4C00D81A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD542AA827F71A4C00D81A68 /* GSVideoPlayerUITests.swift in Sources */,
+				BD542AAA27F71A4C00D81A68 /* GSVideoPlayerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD542A9B27F71A4C00D81A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD542A8227F71A4A00D81A68 /* GSVideoPlayer */;
+			targetProxy = BD542A9A27F71A4C00D81A68 /* PBXContainerItemProxy */;
+		};
+		BD542AA527F71A4C00D81A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD542A8227F71A4A00D81A68 /* GSVideoPlayer */;
+			targetProxy = BD542AA427F71A4C00D81A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD542A8C27F71A4A00D81A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD542A8D27F71A4A00D81A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD542A9127F71A4B00D81A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD542A9227F71A4B00D81A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD542AAB27F71A4C00D81A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD542AAC27F71A4C00D81A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD542AAE27F71A4C00D81A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005903DC8321611CC76E1FF0 /* Pods-GSVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GSVideoPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.GSVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD542AAF27F71A4C00D81A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CB92520F3795AC3261A6BF /* Pods-GSVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GSVideoPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.GSVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD542AB127F71A4C00D81A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFB194AB6752D27D5362E27 /* Pods-GSVideoPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.GSVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSVideoPlayer.app/GSVideoPlayer";
+			};
+			name = Debug;
+		};
+		BD542AB227F71A4C00D81A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AE3D56BE0BF0E08D79802C /* Pods-GSVideoPlayerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.GSVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSVideoPlayer.app/GSVideoPlayer";
+			};
+			name = Release;
+		};
+		BD542AB427F71A4C00D81A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453C78CDC775120D004E7F6D /* Pods-GSVideoPlayer-GSVideoPlayerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.GSVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSVideoPlayer;
+			};
+			name = Debug;
+		};
+		BD542AB527F71A4C00D81A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587548421A7EAF111475FF8A /* Pods-GSVideoPlayer-GSVideoPlayerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.GSVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD542A7E27F71A4A00D81A68 /* Build configuration list for PBXProject "GSVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD542AAB27F71A4C00D81A68 /* Debug */,
+				BD542AAC27F71A4C00D81A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD542AAD27F71A4C00D81A68 /* Build configuration list for PBXNativeTarget "GSVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD542AAE27F71A4C00D81A68 /* Debug */,
+				BD542AAF27F71A4C00D81A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD542AB027F71A4C00D81A68 /* Build configuration list for PBXNativeTarget "GSVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD542AB127F71A4C00D81A68 /* Debug */,
+				BD542AB227F71A4C00D81A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD542AB327F71A4C00D81A68 /* Build configuration list for PBXNativeTarget "GSVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD542AB427F71A4C00D81A68 /* Debug */,
+				BD542AB527F71A4C00D81A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD542A7B27F71A4A00D81A68 /* Project object */;
+}

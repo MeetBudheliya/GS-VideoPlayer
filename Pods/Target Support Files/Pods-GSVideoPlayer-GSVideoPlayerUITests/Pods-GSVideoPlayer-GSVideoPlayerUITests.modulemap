@@ -1,0 +1,6 @@
+framework module Pods_GSVideoPlayer_GSVideoPlayerUITests {
+  umbrella header "Pods-GSVideoPlayer-GSVideoPlayerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
